@@ -256,3 +256,54 @@ Project CSS */
 a{
     color: black;
 }
+
+/**
+COntact css */
+
+.contactDiv {
+    margin: 10px;
+    padding: 10px;
+}
+
+.contactForm {
+    background: linear-gradient(280deg, white, rgb(223, 223, 223) 100%);
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    padding: 20px;
+}
+
+.form-control {
+    display: block;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.row {
+    margin: 15px;
+}
+.sendbutton, .resetbutton {
+    margin: 10px;
+    width: 10%;
+}
+
+.sendbutton {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.formTitle{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footerClass {
+    border-top: 1px solid #dee2e6!important;
+    margin-top: 30px;
+}
+
+.labelContact {
+    margin: 5px;
+}
