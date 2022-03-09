@@ -1,0 +1,72 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px !important; 
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 20px;
+  }
+  
+  .navbar-brand {
+    color: rgb(5, 0, 48);
+  }
+  
+  .nav-link{
+    color: rgb(5, 0, 48);
+  }
+  
+  .links:hover{
+    text-decoration: none !important;
+    color: brown;
+  }
+  
+  .links {
+    display: inline;
+    color:  rgb(5, 0, 48);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none !important;
+  }
+  
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+  }
+  
+  .nav-item {
+    padding: 5px;
+  }
+  
+  .navbar-nav {
+    margin: 0px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .other {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .connectName {
+    float: left;
+  }
+  .connectImage {
+    height: 30px;
+    margin: 10px;
+    width: 30px;
+  }
+  
+  .otherTitle {
+    width: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+  }
